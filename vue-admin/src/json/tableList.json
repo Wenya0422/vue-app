@@ -1,0 +1,22 @@
+jsonp:{//模拟json数据
+    totalPage:1,
+    totalNum:1,
+    rechargeRecords: [
+        {
+            id: 1,
+            createTime: 1495472899020,
+            userId: 22,
+            userName: '小雅',
+            userAdress: '杭州市西湖区',
+            userPhone: 15864230000
+        },
+        {
+            id: 2,
+            createTime: 1494472699000,
+            userId: 24,
+            userName: '雅雅',
+            userAdress: '',
+            userPhone: 15864230000
+        }
+    ]
+}

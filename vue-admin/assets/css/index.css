@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+p,
+blockquote,
+pre,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+hr,
+em,
+select,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 'Microsoft YaHei', 'Helvetica', 'Arial';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+fieldset,
+img {
+  border: 0;
+}
+input {
+  border: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+  font-weight: normal;
+}
+label {
+  display: block;
+}
+q:before,
+q:after {
+  content: '';
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+legend {
+  color: #000;
+}
+small {
+  font-size: 12px;
+}
+hr {
+  border: none;
+  height: 1px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Microsoft YaHei', 'Helvetica', 'Arial';
+  font-size: 14px;
+}
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="date"],
+input[type="tel"] {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.hide {
+  display: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.container {
+  width: 100%;
+}
+#right {
+  overflow: auto;
+  flex: 1;
+}
+.learning {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+}
+.leftFlex {
+  flex: 0 0 180px;
+}
+.leftFlexSixty {
+  flex: 0 0 60px;
+}
+.right-positionDefealt {
+  left: 180px;
+}
+.right-position {
+  left: 60px;
+}
+.header-loge {
+  height: 60px;
+  background: lightseagreen;
+  width: 100%;
+}
+.header-loge .header-nav-left {
+  float: right;
+  height: 100%;
+  margin-right: 30px;
+}
+.header-loge .header-nav-left .use-account-btn a {
+  font-size: 14px;
+  color: white;
+  display: block;
+  line-height: 60px;
+}
+.header-loge .header-nav-left .use-account-btn a img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: block;
+  float: left;
+  margin: 14px 10px 0 0px;
+}
+.header-loge .header-nav-left .use-account-btn .userInfo {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  background: aliceblue;
+}
+.header-loge .header-nav-left .use-account-btn .userInfo a {
+  display: block;
+  color: #858598;
+  line-height: 35px;
+  text-align: left;
+  padding-left: 10px;
+}
+.header-loge .header-nav-left .use-account-btn .userInfo a:hover {
+  background-color: #028c84;
+  color: white;
+}
+.slimScrollDiv {
+  width: 180px;
+  background: #dadada;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.slimScrollDiv .header-nav-logo {
+  float: left;
+  width: 180px;
+  height: 60px;
+  background: #028c84;
+}
+.slimScrollDiv .header-nav-logo a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 4px;
+  line-height: 55px;
+}
+.slimScrollDiv .header-nav-logo a#close-sidebar {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.slimScrollDiv .header-nav-logo a#close-sidebar i {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu {
+  width: 100%;
+  overflow: hidden;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li {
+  font-size: 14px;
+  line-height: 45px;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li a {
+  font-size: 14px;
+  color: black;
+  padding-left: 20px;
+  display: block;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li a i.menuIcon {
+  margin-right: 10px;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li a p.menusNavBox {
+  display: inline-block;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li a p.menusNavBox i.menuSelect {
+  margin-left: 30px;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li a p.menusNavBoxHide {
+  display: none;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li .sidebar-submenu {
+  background-color: #c8d7d8;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li .sidebar-submenu ul li a {
+  color: #48576a;
+  text-align: center;
+  padding-left: 0;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li .sidebar-submenu ul li a.router-link-active {
+  color: white;
+  background: #75c5c1;
+}
+.slimScrollDiv .scroll-sidebar ul.sidebar-menu li .sidebar-submenu ul li a:hover {
+  color: white;
+  background: #75c5c1;
+}
+.logo-width {
+  width: 180px;
+}
+.logo-collapse-width {
+  width: 60px;
+}
+.menu-collapsed {
+  flex: 0 0 60px;
+  width: 60px;
+}
+.menu-expanded {
+  flex: 0 0 180px;
+  width: 180px;
+}
+.submenu-show {
+  display: block;
+}
+.submenu-hide {
+  display: none;
+}
+.commonBody {
+  padding: 15px 20px;
+}
+.x_title {
+  padding-left: 15px;
+  border-left: 4px solid #20b2aa;
+  font-size: 16px;
+  height: 19px;
+  line-height: 19px;
+  margin: 20px 0;
+}
+.table-responsive table th {
+  text-align: center;
+}
+#tabletList td img {
+  width: 45px;
+}
+#tabletList td p {
+  margin-bottom: 0;
+}
+.tabletList td img {
+  width: 45px;
+}
+.tabletList td p {
+  margin-bottom: 0;
+}
+/*弹出窗口*/
+.dialog h3 {
+  color: #555;
+  text-align: left;
+}
+.dialog ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.dialog input {
+  width: 16rem;
+}
+.dialog select {
+  width: 100%;
+}
+.dialog table {
+  margin: auto;
+  border-spacing: 1rem;
+  border-collapse: separate;
+  margin-bottom: 2rem;
+}
+.dialog table tr td:first-child {
+  text-align: left;
+}
+/*重置弹出窗口样式*/
+.sweet-modal.sweet-alert .sweet-content {
+  padding: 2rem 2rem !important;
+}
+.commonTable div .form-inline div label {
+  font-weight: normal;
+}
+.form-group {
+  margin-right: 25px;
+}
+.userTotal {
+  overflow: hidden;
+  margin: 0px 0px 20px;
+}
+.userTotal span {
+  color: #bd0f16;
+}
+.nav li a.router-link-active {
+  background: #464545;
+  border-left: #a0141a 3px solid;
+  color: #fff;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background: #464545;
+  border-left: #a0141a 3px solid;
+  color: #fff;
+}
+.page-index {
+  display: inline-block;
+  margin-left: 5px;
+  width: 35px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+.commonBody ul#echartsUl {
+  overflow: hidden;
+}
+.commonBody ul#echartsUl li {
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-bottom: 40px;
+}
